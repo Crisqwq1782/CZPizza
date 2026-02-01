@@ -1,4 +1,5 @@
-Cristobal Fuenzalida. Desafio 2
+Web para emprendimiento, hecha usando HTML, CSS, y en un futuro JS
 
-Deployment: https://crisqwq1782.github.io/desafio2/
-# CZPizza
+Librerias usadas: 
+-Google Fonts
+-Font Awesome
