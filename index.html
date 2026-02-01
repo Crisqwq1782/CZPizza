@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria da Claudio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <img src="./assets/img/logoblack.png" alt="Logo" class="logo">
+        <div class="navicon">    
+            <a href="https://w.app/czpizzas" target="_blank">
+                <i class="fa-brands fa-whatsapp" style="color: #FFD43B;"></i>
+            </a>
+            <div class="cart-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="badge">0</span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="app-layout">
+        
+        <aside class="sidebar scroll-hidden">
+            <h2 class="menu-title">MENÚ</h2>
+            <nav class="category-nav">
+                <a href="#" class="cat-item active">
+                    <i class="fa-solid fa-fire"></i> Popular
+                </a>
+                <a href="#" class="cat-item">
+                    <i class="fa-solid fa-pizza-slice"></i> Clásicas
+                </a>
+                <a href="#" class="cat-item">
+                    <i class="fa-solid fa-leaf"></i> Veggie
+                </a>
+                <a href="#" class="cat-item">
+                    <i class="fa-solid fa-cookie-bite"></i> Snacks
+                </a>
+                <a href="#" class="cat-item">
+                    <i class="fa-solid fa-wine-bottle"></i> Bebidas
+                </a>
+            </nav>
+            
+            <div class="promo-box">
+                <p>Pide aquí!</p>
+                <small><a href="https://w.app/czpizzas" target="_blank">Whatsapp</a></small>
+            </div>
+        </aside>
+
+        <main class="content-area scroll-hidden">
+            
+            <div class="section-header">
+                <h1>Elige tu Pizza</h1>
+                <p>Masa madre, ingredientes frescos y mucho amor.</p>
+            </div>
+
+            <div class="grid-pizzas">
+                <article class="card">
+                    <div class="card-img">
+                        <img src="./assets/img/pepperoni.jpg" alt="Pepperoni">
+                        <span class="tag">Top</span>
+                    </div>
+                    <div class="card-info">
+                        <h3>Pepperoni Lover</h3>
+                        <p>Doble pepperoni americano con queso mozzarella.</p>
+                        <div class="card-bottom">
+                            <span class="price">$$$</span>
+                            <button class="btn-add"><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-img">
+                        <img src="./assets/img/napolitana.jpg" alt="Napolitana">
+                    </div>
+                    <div class="card-info">
+                        <h3>Napolitana</h3>
+                        <p>Tomates cherry, albahaca fresca y aceite de oliva.</p>
+                        <div class="card-bottom">
+                            <span class="price">$$$</span>
+                            <button class="btn-add"><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-img">
+                        <img src="./assets/img/hawaiana.jpg" alt="Hawaiana">
+                    </div>
+                    <div class="card-info">
+                        <h3>Hawaiana Real</h3>
+                        <p>Piña asada, jamón ahumado y extra queso.</p>
+                        <div class="card-bottom">
+                            <span class="price">$$$</span>
+                            <button class="btn-add"><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-img">
+                        <img src="./assets/img/margarita.jpg" alt="Margarita">
+                    </div>
+                    <div class="card-info">
+                        <h3>Margarita</h3>
+                        <p>La clásica italiana. Menos es más.</p>
+                        <div class="card-bottom">
+                            <span class="price">$$$</span>
+                            <button class="btn-add"><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            
+            <footer class="mini-footer">
+                <p></p>
+            </footer>
+        </main>
+    </div>
+
+</body>
+</html>
